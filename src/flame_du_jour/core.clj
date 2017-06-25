@@ -1,5 +1,6 @@
 (ns flame-du-jour.core
-  (:require [clojure.string :as str]))
+  (:require [clojure.string :as str]
+            [clojure.java.io :as jio]))
 
 (def ^:dynamic *path* [])
 (def ^:dynamic *flame-out*)
@@ -22,7 +23,7 @@
 
   (try
     (reset! last-print (System/nanoTime))
-    (binding [*flame-out* (clojure.java.io/writer output-file)]
+    (binding [*flame-out* (jio/writer output-file)]
       (eval (read-string code)))
     (catch Exception e
       (.printStackTrace e))
