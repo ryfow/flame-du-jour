@@ -22,7 +22,7 @@ If using leiningen, adding flame-du-jour to your user profile dependencies
 makes it conveninent to use.
 
 ```clojure
-{:user {:dependencies [[flame-du-jour "0.1.0"]]}}
+{:user {:dependencies [[ryfow/flame-du-jour "0.1.0"]]}}
 ```
 
 Then, in a project I'm working in (for example refactor-nrepl), run

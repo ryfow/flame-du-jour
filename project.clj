@@ -1,4 +1,4 @@
-(defproject flame-du-jour "0.1.0"
+(defproject ryfow/flame-du-jour "0.1.0"
   :description "Burn it all down"
   :url "http://github.com/ryfow/flame-du-jour"
   :license {:name "Eclipse Public License"
