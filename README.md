@@ -30,7 +30,7 @@ flamegraph.pl will turn the stacks file into a flames svg.
 
 ```
 % ~/oss/FlameGraph/flamegraph.pl flames.txt > flames.svg
-``
+```
 
 Most browsers support svg, so you can view it with `open -a /Applications/Google\ Chrome.app flames.svg`
 
