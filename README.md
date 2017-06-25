@@ -11,7 +11,7 @@ turn into a pretty fire.
 
 * [Clojure](https://clojure.org)
 * [FlameGraph](https://github.com/brendangregg/FlameGraph) must be installed separately to turn the
-  stacks into a graph.
+  stacks into a graph. Just clone that repository so you can run `flamegraph.pl`. It requires `perl`.
 * The example in the README is with [Leiningen](https://leiningen.org/), but there's nothing about the codebase
   that is Leiningen specific.
 
