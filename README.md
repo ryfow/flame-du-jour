@@ -34,7 +34,7 @@ flamegraph.pl will turn the stacks file into a flames svg.
 
 Most browsers support svg, so you can view it with `open -a /Applications/Google\ Chrome.app flames.svg`
 
-![flames-example](doc/flames.svg?raw=true)
+![flames-example](https://ryfow.github.io/flame-du-jour/flames.svg)
 
 
 ## License
