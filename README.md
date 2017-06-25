@@ -10,8 +10,9 @@ turn into a pretty fire.
 ## Dependencies
 
 * [Clojure](https://clojure.org)
-* [FlameGraph](https://github.com/brendangregg/FlameGraph)
-* Example here is with [Leiningen](https://leiningen.org/), but there's nothing about the codebase
+* [FlameGraph](https://github.com/brendangregg/FlameGraph) must be installed separately to turn the
+  stacks into a graph.
+* The example in the README is with [Leiningen](https://leiningen.org/), but there's nothing about the codebase
   that is Leiningen specific.
 
 ## Usage
